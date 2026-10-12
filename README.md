@@ -18,23 +18,27 @@ This repository contains the V1.0 runtime files and the corresponding source
 for its only compiled component, `Mods/BossLab/Native/BossLabGauge.dll`.
 
 - [Native C source](native-source/gauge.c)
+- [Resource transport assembly](native-source/resource_fast.S)
+- [Resource transport build helper](native-source/resource_transport.py)
 - [Executable signature guards](native-source/signatures.h)
 - [Build instructions](BUILDING.md)
 - [Reviewer notes](docs/NEXUS_REVIEW.md)
 - [Release and source checksums](release-manifest.json)
 
 The DLL refills Beta, Burst and Tachy gauges through an in-process game setter.
+The resource performance update binds once per player/world context, then
+performs routine refills in memory with the same native validation and cadence.
 The other gameplay tools and menu are implemented in the Lua scripts under
 `Mods/BossLab/Scripts`.
 
 Rebuilding with Zig 0.16.0 produced the exact DLL distributed in V1.0:
 
 ```text
-SHA-256: 887b364acf5ae07c1b8d320ad693957f20a6df9220b17bbe13a718fde1d83b01
+SHA-256: 409d00d74024296befcb74dc72790202bdc20d68b1604a6c939f208f8242cd16
 ```
 
-Only the current V1.0 source and runtime are included; no earlier builds or
-development history are required for review. Source is available for inspection;
+This repository presents the V1.0 runtime and source snapshot. Earlier
+development builds are not included. Source is available for inspection;
 this repository does not grant an open-source licence. Reuse permissions are
 set by the author on the mod page.
 

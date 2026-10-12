@@ -1,0 +1,6 @@
+LIBRARY msvcrt.dll
+EXPORTS
+sprintf
+__C_specific_handler
+
+memcpy

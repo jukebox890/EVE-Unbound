@@ -1,0 +1,12 @@
+LIBRARY KERNEL32.dll
+EXPORTS
+GetModuleFileNameW
+GetModuleHandleW
+VirtualQuery
+ReadProcessMemory
+GetCurrentProcess
+GetCurrentThreadId
+CreateFileW
+ReadFile
+WriteFile
+CloseHandle

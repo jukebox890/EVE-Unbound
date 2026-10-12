@@ -1,0 +1,207 @@
+{
+  "version": "1.0",
+  "release_archive": {
+    "path": "EVE-Unbound-V1.0.zip",
+    "size_bytes": 3990654,
+    "sha256": "c69ff54b58f36f4998a560c47f98d7c0de9644e0e70c77ed65dde8859a8feae2"
+  },
+  "release_files": [
+    {
+      "path": "CSV_FIELDS.md",
+      "size_bytes": 3807,
+      "sha256": "f70cf33ac48bea2c20aab21a3e223cf0a5bd1d96eeba818d211db829c71d1635"
+    },
+    {
+      "path": "Mods/BossLab/Assets/BossLabLogo.png",
+      "size_bytes": 2080045,
+      "sha256": "c938eed3d620c0e17f0efcc7438d605d50a9de87353001e809cce136c947a89f"
+    },
+    {
+      "path": "Mods/BossLab/Assets/EveDivineMenu.png",
+      "size_bytes": 1866168,
+      "sha256": "f72a8e2a1837b119f06561921df9cad469a7078dda8d995db62b18d34201d58f"
+    },
+    {
+      "path": "Mods/BossLab/Native/BossLabGauge.dll",
+      "size_bytes": 9216,
+      "sha256": "409d00d74024296befcb74dc72790202bdc20d68b1604a6c939f208f8242cd16"
+    },
+    {
+      "path": "Mods/BossLab/Scripts/Config.lua",
+      "size_bytes": 2177,
+      "sha256": "4c9151e1559cd8850a92b04e3e46cd394c4a89782a4112134e3f137cdf141609"
+    },
+    {
+      "path": "Mods/BossLab/Scripts/Core.lua",
+      "size_bytes": 8760,
+      "sha256": "b3030e9464659ac3f63c89d20e8c0c4aa0f4414238d59bd2e2a5e66ad69e0b55"
+    },
+    {
+      "path": "Mods/BossLab/Scripts/Damage.lua",
+      "size_bytes": 7635,
+      "sha256": "0c157808282f3844b6f96638b002890a446fc77a3d70e6f10ddec9346a9130ac"
+    },
+    {
+      "path": "Mods/BossLab/Scripts/DamageUE.lua",
+      "size_bytes": 4769,
+      "sha256": "e10c8038e6632d816246067cbc294bdee98b332be5f0016651cf64498730be2d"
+    },
+    {
+      "path": "Mods/BossLab/Scripts/DamageZeroUE.lua",
+      "size_bytes": 7922,
+      "sha256": "eeb1d119100e8f56f22de2697afc8a94890d4f4688f7aa6b1b23e98138940d8f"
+    },
+    {
+      "path": "Mods/BossLab/Scripts/DeathUE.lua",
+      "size_bytes": 8535,
+      "sha256": "e12ac3165926fa6c7e89fed8d200e03906c90672bb1071d501e991e261c48ec2"
+    },
+    {
+      "path": "Mods/BossLab/Scripts/GameThreadDispatch.lua",
+      "size_bytes": 2426,
+      "sha256": "e74a43cdc3ab7b53305248e5bcf8c0d85737d6b087b75246a757498e9f0dc81f"
+    },
+    {
+      "path": "Mods/BossLab/Scripts/Invulnerability.lua",
+      "size_bytes": 6983,
+      "sha256": "4d7c6d7e172e6ef42231d0f6eb6ed22f1b430b50d13c60cd50ed9ea9461e60de"
+    },
+    {
+      "path": "Mods/BossLab/Scripts/MoveHistory.lua",
+      "size_bytes": 12476,
+      "sha256": "9991d8b7b130d60317f5aaff2937141048b3ad3fc775b5cf060815693f8663e4"
+    },
+    {
+      "path": "Mods/BossLab/Scripts/MoveHistoryHUD.lua",
+      "size_bytes": 3724,
+      "sha256": "61f34e4add5eb14ad12152203e1e551b3a56a6b102e78b6ef7e5787057765a16"
+    },
+    {
+      "path": "Mods/BossLab/Scripts/MoveHistoryUE.lua",
+      "size_bytes": 3330,
+      "sha256": "d0e8ca7ee72ba5717c5bcc87448d5a8e1a0c6ba49a904fb693f4803069363f86"
+    },
+    {
+      "path": "Mods/BossLab/Scripts/NativeGaugeUE.lua",
+      "size_bytes": 4862,
+      "sha256": "53423649142fff8bfe3189f5cf4209bb5cffb9cd2314f284898c191012553b06"
+    },
+    {
+      "path": "Mods/BossLab/Scripts/PanelView.lua",
+      "size_bytes": 7371,
+      "sha256": "3c6a2bfddfa2352cdba9219107322a28dad711fb79a5c476971a2ab910fc1056"
+    },
+    {
+      "path": "Mods/BossLab/Scripts/PositionUE35.lua",
+      "size_bytes": 2617,
+      "sha256": "2dfeff2e7ca4b0c848ab459f772d7baf0e6b427c2f1cb463a02588e24f6c27e5"
+    },
+    {
+      "path": "Mods/BossLab/Scripts/Practice.lua",
+      "size_bytes": 8552,
+      "sha256": "dd7fe5791b0f717822932962699c37c06a327682fbefd46339e91b22fd40fce8"
+    },
+    {
+      "path": "Mods/BossLab/Scripts/PracticeUE.lua",
+      "size_bytes": 1554,
+      "sha256": "1504a7d563d9f257a8e60badb6d5315f74d16136d2556a22dca7f34d2e2e32f8"
+    },
+    {
+      "path": "Mods/BossLab/Scripts/ProtectionError.lua",
+      "size_bytes": 353,
+      "sha256": "4b4a833be15edf05598860b3d6f879b66569608e309bf41015aa0fb8546557ea"
+    },
+    {
+      "path": "Mods/BossLab/Scripts/ProtectionValue.lua",
+      "size_bytes": 363,
+      "sha256": "5b3f67b8db1ae71458f9d6f33ffcf08aee63f03fa2079a8364fad58799fa9d53"
+    },
+    {
+      "path": "Mods/BossLab/Scripts/ResourceInfinite.lua",
+      "size_bytes": 4836,
+      "sha256": "97c74cc67c95901257daa7ddff88cb81a5327c87b279d32174b421af09cc1e9e"
+    },
+    {
+      "path": "Mods/BossLab/Scripts/RowVerify.lua",
+      "size_bytes": 2875,
+      "sha256": "bc4177336ec5134cd958bc4488616a2d45d0a714b2602070567ff5dab20b07d5"
+    },
+    {
+      "path": "Mods/BossLab/Scripts/Speed.lua",
+      "size_bytes": 3685,
+      "sha256": "28d5c7d883b1d7ad753a86b1362cbc7c5cbb99f02860cd1eb9ae2f43413964d8"
+    },
+    {
+      "path": "Mods/BossLab/Scripts/SpeedUE.lua",
+      "size_bytes": 1860,
+      "sha256": "2f1702f88656d3cac1afc22daf417b451ae72c072450f8d19bb9a6d11bf4b951"
+    },
+    {
+      "path": "Mods/BossLab/Scripts/StatusHUD.lua",
+      "size_bytes": 3141,
+      "sha256": "eaa18242068329f7202ed0ab54b25a79b217cc6cecdcdb11a8e0416e710872e2"
+    },
+    {
+      "path": "Mods/BossLab/Scripts/UE.lua",
+      "size_bytes": 8590,
+      "sha256": "c0f7fefe3ba791ff82f9625138037fa3532270f5e0fabef0b38560bc88dffc62"
+    },
+    {
+      "path": "Mods/BossLab/Scripts/UsabilityBatch.lua",
+      "size_bytes": 34301,
+      "sha256": "06bda4aa94dca8a909fcee640daf83f63f659569a6e80a613cda83383b78ec3b"
+    },
+    {
+      "path": "Mods/BossLab/Scripts/main.lua",
+      "size_bytes": 409,
+      "sha256": "5b5a0978606cb9df1290bfb2e65076d5a2fed813c98f88fff620e28e2d172a2c"
+    },
+    {
+      "path": "Mods/BossLab/enabled.txt",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "README.txt",
+      "size_bytes": 5030,
+      "sha256": "144708daec0534f50f994f272612b089b39f6eb3ba8204dc105f447403e7d889"
+    }
+  ],
+  "native_source_files": [
+    {
+      "path": "native-source/build.py",
+      "size_bytes": 1393,
+      "sha256": "a3861291de928b53639afbc906a2428bbae3d8321414aa6107d02d04ecba7e37"
+    },
+    {
+      "path": "native-source/gauge.c",
+      "size_bytes": 8429,
+      "sha256": "0b35c622888f25b5c0ab719482cf06bf08a1b37bb61ee514a064a38783d9cef4"
+    },
+    {
+      "path": "native-source/kernel32.def",
+      "size_bytes": 176,
+      "sha256": "5fdbfbb1bb83d923d24825791675c54f88d16756e8e56ccfa9abf2f02ed02ae0"
+    },
+    {
+      "path": "native-source/msvcrt.def",
+      "size_bytes": 64,
+      "sha256": "4010c0c1bc43ea61b5517bd2d60564c117be8dccbd84aea6cbbaa46bec4e9018"
+    },
+    {
+      "path": "native-source/signatures.h",
+      "size_bytes": 2242,
+      "sha256": "28a833c5596feb6f1b55d1139fff07648a3ce2fe8929b63face8e5eb9ae9fb2e"
+    },
+    {
+      "path": "native-source/resource_fast.S",
+      "size_bytes": 4023,
+      "sha256": "9a37e930aed94670541323b437374a3774e07800d08652e933785bda22e63c40"
+    },
+    {
+      "path": "native-source/resource_transport.py",
+      "size_bytes": 6357,
+      "sha256": "39b839e8820e494cd807c6bc15e1c3f4ad65e96b3223c35e01e98b0576314146"
+    }
+  ]
+}
